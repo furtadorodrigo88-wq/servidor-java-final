@@ -11,7 +11,7 @@ import java.util.UUID;
 @Service
 public class FileStorageService {
 
-    private final String dirUploads = "uploads/imagens";
+    private final String dirUploads = "uploads/images";
 
     public FileStorageService () {
         try {
