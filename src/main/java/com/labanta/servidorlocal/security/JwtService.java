@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Service
 public class JwtService {
-    private final SecretKey chaveSecreta = Keys.hmacShaKeyFor("${JWT_SECRET}".getBytes());
+    private final SecretKey chaveSecreta = Keys.hmacShaKeyFor("fgdhfgdfhbnfvgnbfgdfgdfgfcgvcfbcvbfdgdxgfdbcfbfdbfthtjfhhg".getBytes());
     public String gerarToken(String username) {
 
         return Jwts.builder()
