@@ -23,7 +23,7 @@ public class ServiceModel {
     public ServiceModel(){
 
     }
-    public ServiceModel (String titulo, String descricao, double preco, boolean estado, double precoComDesconto, String imagenCapa) {
+    public ServiceModel (long id, String titulo, String descricao, double preco, boolean estado, double precoComDesconto, String imagenCapa) {
         this.titulo = titulo;
         this.descricao = descricao;
         this.preco = preco;
