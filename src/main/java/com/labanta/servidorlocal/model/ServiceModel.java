@@ -32,6 +32,9 @@ public class ServiceModel {
         this.imagenCapa = imagenCapa;
     }
 
+    public long getId() {
+        return id;
+    }
     public String getTitulo() {
         return titulo;
     }

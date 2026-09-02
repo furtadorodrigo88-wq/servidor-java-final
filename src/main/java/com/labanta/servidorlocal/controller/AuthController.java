@@ -45,7 +45,7 @@ public class AuthController {
     public ResponseEntity<UsersModel> regitrar(@RequestBody RegistroRequestDTO dados) {
 
         UsersModel user = authService.registerUser(dados);
-        emailService.enviarEmailBoasVindas(user.getEmail(),user.getUsername());
+        /*emailService.enviarEmailBoasVindas(user.getEmail(),user.getUsername());*/
         return ResponseEntity.ok(user);
     }
 
